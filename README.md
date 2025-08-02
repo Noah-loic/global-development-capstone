@@ -12,7 +12,7 @@ This project analyzes economic and human development indicators using World Bank
 - Power BI (Interactive Dashboard)
 - GitHub (Documentation, Collaboration)
 
-##  Problem Statement
+## PART 1: Problem Statement
 Which countries and regions have developed the fastest in terms of GDP, HDI, population, and life expectancy? Can we model or cluster development patterns?
 
 This project investigates:
@@ -32,7 +32,7 @@ This project investigates:
 - These datasets were merged by country and year to produce `data_cleaned.csv`.
 
 ---
-## PYTHON ANALYTICS TASKS
+## PART 2: PYTHON ANALYTICS TASKS
 
 ## 1. Data Cleaning 
 
@@ -460,3 +460,18 @@ plt.show()
 - Cluster 2: Developed countries (high HDI, high life expectancy, strong infrastructure)
 
 ---
+
+## PART 3: POWER BI DASHBOARD TASKS
+The interactive dashboard includes:
+- Slicers: Country, Year, Cluster
+- KPIs: Global HDI, GDP per capita, life expectancy
+<img width="580" height="329" alt="average of hdi,life expectecny,Gdp using kpi" src="https://github.com/user-attachments/assets/cd01a002-6f59-4e08-b733-0bfc7d1e297c" />
+
+- Charts: Top growth countries, HDI trends, correlations
+<img width="946" height="470" alt="image3" src="https://github.com/user-attachments/assets/38427349-97d0-4488-9f0f-266ee7d9e0d7" />
+<img width="643" height="378" alt="image2" src="https://github.com/user-attachments/assets/85ae6090-5fe1-4c1f-9ba8-f716ac6a9a0f" />
+<img width="644" height="379" alt="images 5" src="https://github.com/user-attachments/assets/63a447e3-4c00-404d-8616-6c1e1c7d2980" />
+
+- Map: Country clusters and development patterns
+  <img width="640" height="375" alt="image4" src="https://github.com/user-attachments/assets/86c4c12f-c6ef-4c4a-870f-49b12cac5044" />
+
