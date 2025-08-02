@@ -52,6 +52,9 @@ We obtained a consistent, combined dataset ready for analysis with ~180 countrie
 ### 2 Exploratory Data Analysis (EDA) 
 
 #### EDA Question 1: **Top GDP & Population Growth Countries**
+
+
+
 - The code calculates the difference between the **max** and **min** GDP per capita and population for each country.
 - Visualized top 10 countries with growing countries in GDP and population were identified, with some overlap in bar charts.
 
