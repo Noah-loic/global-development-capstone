@@ -200,6 +200,27 @@ Name: life_expectancy_at_birth_years, dtype: float64
 it was done following the following steps:
 
 **1. Feature Selection**:	Identify predictors and target variable	Focus model on meaningful inputs.
+
+**What was done:**
+
+Chose independent variables that are known to influence life expectancy:
+
+ - hdi (Human Development Index)
+
+ - gdp_per_capita
+
+ - population
+
+ - electricity_consumption_per_capita
+
+ - co2_emissions_per_capita
+
+Defined the target variable:
+ - life_expectancy
+
+**Why it was done:**
+ - To ensure that only relevant, numerical, and complete data was used to build an accurate model.
+ - These features are backed by economic and social theory as drivers of health outcomes.
 ```python
 # Select features for modeling
 features = [
@@ -219,6 +240,17 @@ y = model_df['life_expectancy_at_birth_years']
 ```
 
 **2. Data Splitting**:	Divide data into training and test sets	and ensures fair and generalizable evaluation.
+
+**Divided the dataset into:**
+
+ - Training set (80%) – to train the model.
+
+ - Test set (20%) – to evaluate model performance on unseen data.
+
+**Why it was done:**
+ - To prevent overfitting (i.e., model memorizing data).
+ - Ensures the model is evaluated fairly on data it has never seen before — mimicking real-world deployment.
+
 ```python
 from sklearn.model_selection import train_test_split
 
@@ -229,7 +261,17 @@ X_train, X_test, y_train, y_test = train_test_split(
 
 ```
 
+
 **3. Model Training**:	Fit models to training data	and Learn relationships between inputs and output
+
+**What was done:**
+ - Trained two different models:
+    1. Linear Regression: Fits a straight-line relationship between features and life expectancy.
+    2. Random Forest Regressor: Builds multiple decision trees and averages their results for better predictions.
+
+**Why it was done:**
+ - To learn the patterns in the training data that relate predictors (X) to the target (y).
+ - Comparing a simple model (linear) and a complex one (random forest) helps evaluate trade-offs between interpretability and accuracy.
 ```python
 from sklearn.linear_model import LinearRegression
 
@@ -246,6 +288,18 @@ y_pred_rf = rf.predict(X_test)
 ```
 
 **4. Model Evaluation**:	Test model on unseen data using R² and RMSE	Measure accuracy and robustness
+
+**What was done:**
+
+ - Used metrics like:
+   1. R² Score – How much variance is explained by the model (closer to 1 is better).
+   2. RMSE (Root Mean Squared Error) – Measures prediction error in the original unit (lower is better).
+
+**Why it was done:**
+ - To measure how well each model performs.
+ - Linear Regression gives insights into directional relationships.
+ - Random Forest shows how accurately complex, non-linear relationships can be modeled.
+
 ```python
 from sklearn.linear_model import LinearRegression
 
