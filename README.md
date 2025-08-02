@@ -25,8 +25,10 @@ This project investigates:
 
 ---
 
-##  Data Sources
+##  Data Sources:
+`https://mavenanalytics.io/data-playground?page=4&pageSize=5`
 
+#### Datasets:
 - `WorldBank.xlsx`: Economic indicators (1960–2018):The World Bank funds infrastructure projects in the developing world. As part of its mission, it releases an annual report on economic indicators. This dataset includes important indicators of economic performance and development from 1960-2018, including fields like electricity consumption, GDP per capita, life expectancy, and more.
   
 - `HDI.csv`: Human Development Index (1990–2021):To augment the World Bank data, Human Development Index (HDI) data has been provided by the United Nations (UN). HDI is a composite measure of how developed a country is based on life expectancy, GDP per capita, and educational attainment. This supplementary dataset contains additional indicators used by the UN to track development, environmental impact, and inequality for each country from 1990-2021.
