@@ -13,7 +13,9 @@ This project analyzes economic and human development indicators using World Bank
 - GitHub (Documentation, Collaboration)
 
 ## PART 1: Problem Statement
-Which countries and regions have developed the fastest in terms of GDP, HDI, population, and life expectancy? Can we model or cluster development patterns?
+Analyzing Global Development Trends using World Bank and UN HDI Data
+
+**sector**: Government
 
 This project investigates:
 - Which countries experienced the highest **GDP and population growth**
