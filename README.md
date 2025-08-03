@@ -467,15 +467,48 @@ plt.show()
 
 ## PART 3: POWER BI DASHBOARD TASKS
 The interactive dashboard includes:
-- Slicers: Country, Year, Cluster
-- KPIs: Global HDI, GDP per capita, life expectancy
+### 1 .Slicers: Country, Year, Cluster
+### 2 .KPIs: Global HDI, GDP per capita, life expectancy
 <img width="580" height="329" alt="average of hdi,life expectecny,Gdp using kpi" src="https://github.com/user-attachments/assets/cd01a002-6f59-4e08-b733-0bfc7d1e297c" />
 
-- Charts: Top growth countries, HDI trends, correlations
+**Average Global HDI, GDP per Capital, and Life Expectancy (1990):**
+ - It the image i took an example of country of Rwanda in 1990
+ - The average for Rwanda in 1990 HDI is 0.67.
+ - The average global GDP per capita is 349.87 USD.
+ - The average life expectancy is 33.41 years. This shows that it was a time of high mortality rate.
+
+
+### 3. Charts: Top growth countries, HDI trends, correlations
 <img width="946" height="470" alt="image3" src="https://github.com/user-attachments/assets/38427349-97d0-4488-9f0f-266ee7d9e0d7" />
+
+<img width="687" height="407" alt="example" src="https://github.com/user-attachments/assets/f7b6db4b-5f09-4b86-bdad-b939dd6a1d85" />
+
+**Sum of GDP per Capita, Life Expectancy, and Death Rate by Country and Year (1990-2011):**
+ - **Using a slicer, i set an example of the year of 1994 as you can see below:**
+ - **GDP per Capital:** Luxembourg and Norway show the highest growth, with values exceeding 1.5M USD, while other countries like Iceland and Denmark are lower but still significant.
+ - **Life Expectancy:** Japan and Switzerland lead with values around 2,000 years (likely aggregated or mislabeled data), while Rwanda,Sierra Leone and Uganda are lower, indicating health disparities.
+ - **Death Rate:** Sierra Leone and Rwanda show the highest sums (around 500-600), while countries like Japan and Iceland are lower, reflecting differences in mortality which also confirms the life expectancy values.
+
 <img width="643" height="378" alt="image2" src="https://github.com/user-attachments/assets/85ae6090-5fe1-4c1f-9ba8-f716ac6a9a0f" />
+
+**HDI Trend Over Years (2008):**
+
+The HDI trend for various countries in 2008 shows a relatively stable range between 0.3 and 0.9, with a slight decline over the years. Countries like Norway and Switzerland are at the higher end, while others like Afghanistan and Angola are lower, indicating varying development levels
+
+
 <img width="644" height="379" alt="images 5" src="https://github.com/user-attachments/assets/63a447e3-4c00-404d-8616-6c1e1c7d2980" />
 
-- Map: Country clusters and development patterns
+**Sum of Unemployment and Population Density by Country:**
+  - The line chart shows a high initial sum of unemployment (of total labor force, modeled ILO estimate) and population density (people per sq. km of land area) that decreases sharply and then stabilizes. Countries like North Macedonia and Bosnia and Herzegovina start with high values, while Syria Arab Republic shows a notable peak, suggesting regional variations in these metrics.
+
+
+### 4. Country clusters and development patterns
   <img width="640" height="375" alt="image4" src="https://github.com/user-attachments/assets/86c4c12f-c6ef-4c4a-870f-49b12cac5044" />
+  
+**Pie Charts by Cluster:**
+
+ - **Birth Rate:** Cluster 0.0 dominates with 41.7%, followed by 2.0 (29.19%) and 1.0 (20.61%), indicating varied birth rates across clusters which could mean that one of the cause of the disparities between the cluster 2 and cluster 0 is the huge population of the underdeveloped countries.
+ - **Population Density:** Cluster 2.0 has the highest sum (350.28K, 42.51%), followed by 0.0 (156.11K, 18.94%) and 1.0 (46.2K, 5.61%), showing significant density differences.
+ - **Life Expectancy:** Cluster 1.0 leads with 152.9K (26.07%), followed by 0.0 (59.24K, 19.76%) and 2.0 (51.04K, 8.49%), reflecting diverse life expectancy distributions.
+ - **Death Rate:** Cluster 0.0 has the highest sum (15.66K, 39.56%), followed by 1.0 (5.62K, 14.17%) and 2.0 (16.3K, 4.25%), indicating varied mortality rates.
 
