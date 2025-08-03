@@ -365,7 +365,7 @@ evaluate_model("Random Forest Regressor", y_test, y_pred_rf)
 
  - Purpose: Capture non-linear, complex relationships that a linear model may miss.
 
- - How it works: Uses an ensemble of decision trees to predict the output — averaging many trees reduces overfitting.
+ - How it works: Uses an ensemble of decision trees to predict the output, averaging many trees reduces overfitting.
 
 Strengths:
 
