@@ -3,9 +3,7 @@
 
 This project analyzes economic and human development indicators using World Bank and UN HDI data.
 
-**Course:** INSY 8413 Introduction to Big Data Analytics  
-**Student:** Kizungu Shyaka Noah Loic   
-**ID:** 25919
+
 
 ##  Tools
 - Python (Data Cleaning, EDA, Modeling, Clustering)
